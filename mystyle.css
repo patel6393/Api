@@ -1,0 +1,50 @@
+body{
+background-image:url(https://th.bing.com/th/id/R.4e5cf7d4ccb9c59b6620a9c71944d51e?rik=6h5kFmpSPcYpAQ&riu=http%3a%2f%2fclipart-library.com%2fimages%2fkTMb8beEc.png&ehk=FwWGfm6sQHtzbopkZDkeQS7pC5HVrIweXO01yu%2fKJ%2fw%3d&risl=&pid=ImgRaw&r=0);
+background-color: yellow;
+background-repeat:space repeat;
+}
+ .container{
+  align-items: center;
+  justify-content: center;
+ 
+  height: 150vh;
+  display: flex;
+  flex-direction: column;
+} 
+h1{
+  font-size: 50px;
+  font-style: bold;
+}
+
+.box{
+  background-color: red;
+  border: 5px solid black;
+  text-align: center;
+  margin-top: 240px;
+  width: 650px;
+  height:350px; 
+  padding:30px;
+  border-radius: 13px;
+}
+.btn{
+  width: 120px;
+  background-color: yellow;
+  border-radius:5px;
+  font-size: 20px;
+  height: 70px;
+  cursor: pointer;
+  border: 10px double silver;
+ transition-duration: .2s;
+ transition-timing-function: ease-in;
+ transition-delay: .1s;
+}
+
+.btn:hover {
+  background-color: blue;
+}
+.joke{
+
+  font-style: italic;
+  font-size: 35px;
+}
+
